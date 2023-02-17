@@ -35,7 +35,7 @@ const featureSpeakers = {
     name: 'Ingabire Paula',
     title: 'Minister of ICT',
     description: 'Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.',
-    img: './images/Paula.jpg',
+    img: './images/chef_02.png',
   },
   4: {
     name: 'Arlene Umwiza',
