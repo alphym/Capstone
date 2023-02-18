@@ -3,8 +3,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-
-  /* padding: 0; */
 }
 
 a {
@@ -70,6 +68,11 @@ header {
   right: 5px;
 }
 
+#menu-id {
+  height: 40px;
+  width: 40px;
+}
+
 .mobile-li {
   font-size: 24px;
   color: white;
@@ -107,11 +110,7 @@ header {
   color: #f45917;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  font-size: 40px;
-  background-image: url("./images/fireworks.jpg");
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #ec0e0e4f;
+  font-size: 60px;
 }
 
 .main-content .paragraph {
@@ -192,8 +191,6 @@ header {
   justify-content: space-between;
   padding-left: 20px;
   padding-right: 20px;
-
-  /* gap: 5px; */
 }
 
 .card .card-title {
@@ -264,7 +261,9 @@ header {
   height: 150px;
   width: 100%;
   display: flex;
-  box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px;
+  background-image: url(./images/grey-chess.jpg);
+  background-repeat: no-repeat;
+  background-size: 20% 40%;
 }
 
 .feature-card-container {
@@ -281,11 +280,15 @@ header {
 .card-feature-img {
   height: 100%;
   width: 40%;
+  position: relative;
 }
 
 .card-feature-img img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .card-feature-description {
@@ -355,7 +358,7 @@ header {
   height: auto;
   width: 100%;
   background-color: #424146;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   padding-top: 20px;
@@ -368,8 +371,6 @@ header {
 .partners .partners-title {
   width: 100%;
   align-items: center;
-
-  /* background-color: white; */
   height: 25%;
   justify-content: center;
   display: flex;
@@ -392,8 +393,6 @@ header {
 .partners-list {
   width: 100%;
   height: 70%;
-
-  /* background-color: #f45917; */
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -663,8 +662,6 @@ footer .footers {
   .partners .partners-title {
     width: 100%;
     align-items: center;
-
-    /* background-color: white; */
     height: 30%;
     justify-content: center;
     display: flex;
@@ -687,8 +684,6 @@ footer .footers {
   .partners-list {
     width: 100%;
     height: 70%;
-
-    /* background-color: #f45917; */
     display: flex;
     align-items: center;
     flex-direction: row;
